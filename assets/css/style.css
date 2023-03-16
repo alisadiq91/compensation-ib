@@ -85,3 +85,15 @@ button {
 .text-grey {
   color: grey;
 }
+
+.front {
+  z-index: 100;
+}
+
+.front-1 {
+  z-index: 99;
+}
+
+.front-2 {
+  z-index: 98;
+}
