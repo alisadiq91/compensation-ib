@@ -118,10 +118,39 @@
   </nav>
 <!-- header end -->
 
-<div class="container-fluid">
-  <p class="text-orange text-center m-fake text-bold">COMING SOON</p>
-</div>
-
+<div class="container-fluid hexagon">
+    <div class="container">
+      <div class="row">
+          <div class="col-5 py-4">
+            <p class="text-white text-left mt-5 p-2 text-hero bg-white-op">Our goal is to make sure you get the compensation you deserve!</p>
+            <p class="fw-light mb-4 p-2 bg-white-op">We work to ensure that clients receive the compensation they deserve for their losses, including medical expenses, lost wages, pain and suffering, and other damages.</p>
+            <h3><button type="button" class="btn btn-light text-bold text-orange hover-white">Start Your Claim</button></h3>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-6 py-4">
+            <div class="text-box rounded-50 text-center px-1 bg-white-op">
+              <form class="forms p-4 py-5 contact-us-form" onsubmit="return sendMail(this);">
+                  <h5 class="font-large">Request a call back here<br class="pt-2">Or Call Us On <span class=""><a class="fw-bold text-decoration-none text-white" href="tel:0800111111">0800 111 1111</a></span></h5>
+                  <div class="mt-4 inputs"> 
+                      
+                      <input type="text" class="form-control mb-1" id="fromName"  name="name" placeholder=" Full Name" required>
+                      
+                      <input type="email" class="form-control mb-1" id="fromEmail" name="email" placeholder=" Email" required>
+                      <input type="tel" class="form-control mb-1" id="fromTel" name="telephone" placeholder=" Contact Number" required>
+                      <select class="form-select mb-1" aria-label="Default select example">
+                        <option selected>Type of claim</option>
+                        <option value="1">Personal Injury</option>
+                        <option value="2">Industrial Disease</option>
+                        <option value="3">Other</option>
+                      </select>
+                      <button type="submit" class="btn btn-success mt-2"><span class="fw-bold letter-spacing">SPEAK TO AN EXPERT</span></button>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
 <!-- footer -->
 
 <!-- Remove the container if you want to extend the Footer to full width. -->
