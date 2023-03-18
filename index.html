@@ -14,6 +14,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Manrope:wght@900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -43,7 +44,7 @@
         <div><i class="far fa-envelope"></i></div>
         <div class="text-start d-md-block d-none">
           <h5 class="p-0 m-0 text-uppercase">Email</h5>
-          <p class="p-0 m-0 text-white">info@compensation.com</p>
+          <p class="p-0 m-0 text-white text-decoration-none"><a href="mailto:info@compensation.com" class="text-decoration-none text-white">info@compensation.com</a></p>
         </div>
       </div>
     </div>
@@ -54,7 +55,7 @@
         </div>
         <div class="text-start d-md-block d-none">
           <h5 class="p-0 m-0 text-uppercase">Phone</h5>
-          <p class="p-0 m-0 text-white">0800 111 1111<br><small class="text-white">Open 7 days a week 8am-8pm</small></p>
+          <p class="p-0 m-0 text-white"><a href="tel:08001111111" class="text-white">0800 111 1111</a><br><small class="text-white">Open 7 days a week 8am-8pm</small></p>
           
         </div>
       </div>
@@ -118,19 +119,19 @@
   </nav>
 <!-- header end -->
 
-<div class="container-fluid hexagon">
+<div class="container-fluid hexagon  border-orange py-5 text-black">
     <div class="container">
       <div class="row">
-          <div class="col-5 py-4">
-            <p class="text-white text-left mt-5 p-2 text-hero bg-white-op">Our goal is to make sure you get the compensation you deserve!</p>
-            <p class="fw-light mb-4 p-2 bg-white-op">We work to ensure that clients receive the compensation they deserve for their losses, including medical expenses, lost wages, pain and suffering, and other damages.</p>
-            <h3><button type="button" class="btn btn-light text-bold text-orange hover-white">Start Your Claim</button></h3>
+          <div class="col-5 ">
+            <p class=" text-left mt-5 p-4 text-hero bg-white-op">Our goal is to make sure you get the compensation you deserve!</p>
+            <p class="fw-light mb-4 p-3 bg-white-op lato-font">We work to ensure that clients receive the compensation they deserve for their losses, including medical expenses, lost wages, pain and suffering, and other damages.</p>
+            <h3 class="d-flex justify-content-center"><button type="button" class="btn btn-light text-bold text-orange hover-white btn-green letter-spacing">Start Your Claim</button></h3>
           </div>
           <div class="col-1"></div>
           <div class="col-6 py-4">
             <div class="text-box rounded-50 text-center px-1 bg-white-op">
               <form class="forms p-4 py-5 contact-us-form" onsubmit="return sendMail(this);">
-                  <h5 class="font-large">Request a call back here<br class="pt-2">Or Call Us On <span class=""><a class="fw-bold text-decoration-none text-white" href="tel:0800111111">0800 111 1111</a></span></h5>
+                  <h5 class="font-large">Request a call back here<br class="pt-2">Or Call Us On <span class=""><a class="fw-bold text-decoration-none text-black" href="tel:0800111111">0800 111 1111</a></span></h5>
                   <div class="mt-4 inputs"> 
                       
                       <input type="text" class="form-control mb-1" id="fromName"  name="name" placeholder=" Full Name" required>
@@ -143,7 +144,8 @@
                         <option value="2">Industrial Disease</option>
                         <option value="3">Other</option>
                       </select>
-                      <button type="submit" class="btn btn-success mt-2"><span class="fw-bold letter-spacing">SPEAK TO AN EXPERT</span></button>
+                      <p class="font-tiny mt-2">By submitting this form I consent for Company Name to process the above data and health data to assess my claim and contact me in relation to a possible claim. To read more about how we process your personal data please see our <a href="privacy.html" class="text-decoration-none">Privacy Policy.</a></p>
+                      <button type="submit" class="btn btn-main"><span class="fw-bold letter-spacing">SPEAK TO AN EXPERT</span></button>
                   </div>
               </form>
             </div>
@@ -151,6 +153,57 @@
         </div>
       </div>
   </div>
+
+<section>
+  <div class="container text-center mb-3 mt-5 text-white d-flex justify-content-center ">
+    <div class="row">
+      <h3 class="mb-3">No Win No Fee Compensation Claims</h3>
+      <hr class="clear-fix hr-green">
+      <p class="lato-font my-2">Are you coping with the after-effects of a personal injury or accident that was not your fault? Have you suffered from an industrial disease? We can help you to make a claim. Our friendly team of agents are on hand 7 days a week to discuss UK claims. There’s no obligation; just get in touch for a free consultation regarding your potential accident or injury claim.</p>
+      <h4 class="my-2">We are able to offer help and guidance for a wide range of claim types including:</h4>
+      <div class="d-flex justify-content-between my-2">
+        <button type="button" class="btn btn-success btn-lg">Personal Injury Claims</button>
+      
+      
+        <button type="button" class="btn btn-success btn-lg">Industrial Injury Claims</button>
+      </div>
+      <hr class="clear-fix hr-green mt-3">
+      <p class="lato-font mt-3">The solicitors we work with typically charge 25% including VAT on the compensation amount that is recovered, although this is subject to your individual circumstances and the actual fee may be more or less than this. For example, you may be required to pay an additional fee for other costs such as after-the-event (ATE) insurance. Termination fees may apply.</p>
+      <hr class="clear-fix hr-green mt-3">
+    </div>
+  </div>
+  <div class="container text-center text-white">
+    <div class="row">
+      <div class="col-6">
+          <h4>Types of personal injury claims covered:</h4>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="" class="text-black">Accidents at work</a></li>
+            <li class="list-group-item"><a href="" class="text-black">Slips, trips, and falls</a></li>
+            <li class="list-group-item"><a href="" class="text-black">Road traffic accidents (RTA)</a></li>
+            <li class="list-group-item"><a href="" class="text-black">Sporting injuries</a></li>
+            <li class="list-group-item"><a href="" class="text-black">Criminal injuries</a></li>
+            <li class="list-group-item"><a href="" class="text-black">Accidents abroad</a></li>
+            <li class="list-group-item"><a href="" class="text-black">Medical negligence</a></li>
+          </ul>
+      </div>
+      <div class="col-6">
+        <h4>Types of industrial injury claims covered:</h4>
+        <ul class="list-group">
+          <li class="list-group-item"><a href="" class="text-black">Asbestosis and Mesothelioma</a></li>
+            <li class="list-group-item"><a href="" class="text-black">Vibration White Finger</a></li>
+            <li class="list-group-item"><a href="" class="text-black">Carpal Tunnel Syndrome</a></li>
+            <li class="list-group-item"><a href="" class="text-black">Industrial Dermatitis</a></li>
+            <li class="list-group-item"><a href="" class="text-black">Occupational Asthma</a></li>
+            <li class="list-group-item"><a href="" class="text-black">Repetitive Strain Injury</a></li>
+            <li class="list-group-item"><a href="" class="text-black">Industrial Deafness</a></li>
+        </ul>
+    </div>
+    </div>
+
+  </div>
+</section>
+
+
 <!-- footer -->
 
 <!-- Remove the container if you want to extend the Footer to full width. -->
@@ -164,11 +217,11 @@
     <!-- Section: Social media -->
     <section
              class="d-flex justify-content-between p-4"
-             style="background-color: #ef662b">
+             style="background-color: #42ef2b">
              
       <!-- Left -->
-      <div class="me-5 text-white text-bold">
-          <span>Speak to us now on 0800 182 2185
+      <div class="me-5 text-black text-bold">
+          <span><i class="far fa-comments icon-large"></i> &nbsp;&nbsp;Speak to us now on 0800 182 2185
           | Open 7 Days a Week 8.00am - 7.00pm
           </span>
       </div>
@@ -194,7 +247,7 @@
             <h6 class="text-uppercase fw-bold">Company name</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #ef662b; height: 2px"
+                style="width: 60px; background-color: #42ef2b; height: 2px"
                 />
             <p>
               We are a team of compensation experts dedicated to helping companies develop effective and fair compensation strategies. With years of experience in the industry, we understand the complexities of compensation management and work closely with our clients to ensure that their compensation practices align with their business goals and values. Our expertise includes benchmarking, salary structuring, incentive design, and compliance, among others.
@@ -210,7 +263,7 @@
             <h6 class="text-uppercase fw-bold">Useful links</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #ef662b; height: 2px"
+                style="width: 60px; background-color: #42ef2b; height: 2px"
                 />
             <p>
               <a href="#!" class="text-white">ABOUT</a>
@@ -233,7 +286,7 @@
             <h6 class="text-uppercase fw-bold">Contact</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #ef662b; height: 2px"
+                style="width: 60px; background-color: #42ef2b; height: 2px"
                 />
             <p><i class="fas fa-home mr-3"></i> &nbsp;&nbsp;135 My Office, Leeds, UK</p>
             <p><i class="fas fa-envelope mr-3"></i> &nbsp;&nbsp;info@compensation.com</p>
@@ -257,11 +310,13 @@
 </div>
     <!-- Copyright -->
     <div
-         class="text-center p-3"
+         class="text-center p-3 d-flex justify-content-between"
          style="background-color: rgba(0, 0, 0, 0.2)"
          >
-      © 2023 Copyright:
-         Company Name
+         <p> © 2023 Copyright:
+         Company Name</p>
+         <p>Powered by <a href="https://codeitwithali.co.uk/" class="text-white text-larger"> &nbsp;Code It With Ali</a></p>
+     
     </div>
     <!-- Copyright -->
   </footer>
