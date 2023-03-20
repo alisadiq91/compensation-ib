@@ -209,3 +209,15 @@ a:hover {
 .icon-large {
   font-size: x-large;
 }
+
+/* contact page */
+
+.form-bg {
+ background-color: #343a40;
+ border: none;
+}
+
+.btn-contact {
+  background-color: #42ef2b !important;
+  color: #343a40;
+}
