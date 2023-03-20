@@ -221,3 +221,15 @@ a:hover {
   background-color: #42ef2b !important;
   color: #343a40;
 }
+
+
+/* privacy page */
+
+.text-bigger {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
